@@ -2,6 +2,8 @@ package config;
 
 public interface RedmineEndpoints {
 
+    String BASE_URI = "http://localhost:81/";
+
     String MY_LOGIN_ACCOUNT_JSON = "my/account.json";
 
     String ALL_REDMINE_ISSUES_JSON = "issues.json";
