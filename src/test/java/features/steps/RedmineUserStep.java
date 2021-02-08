@@ -7,8 +7,6 @@ import net.thucydides.core.annotations.Step;
 
 import java.util.Base64;
 
-import static io.restassured.RestAssured.given;
-
 public class RedmineUserStep {
 
     public static String api_key;

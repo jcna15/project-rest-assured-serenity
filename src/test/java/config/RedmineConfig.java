@@ -8,15 +8,12 @@ import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
-import net.serenitybdd.junit.runners.SerenityRunner;
 import org.junit.Before;
-import org.junit.runner.RunWith;
 
 import java.util.Base64;
 
 import static io.restassured.RestAssured.given;
 
-@RunWith(SerenityRunner.class)
 public class RedmineConfig {
     public static String user = "jnavarro";
     public static String pass = "jnavarro";
